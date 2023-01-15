@@ -36,9 +36,9 @@ h1 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     font-weight:bolder;
     text-align: left;
-   color: #547A72;
-   letter-spacing: 1px;
-    margin: 1px;}
+    color: #547A72;
+    letter-spacing: 1px;
+    margin-bottom:-20px;}
 
 .container{                                                                                                             
     display:grid;
@@ -72,6 +72,7 @@ h1 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 grid-row: -2/4; 
 }
 
+
 .happy-sono{
      width: 450px;
      grid-column: 1/5;
@@ -81,9 +82,12 @@ grid-row: -2/4;
 
 .text {
     background-color: #F5EDAA;
-    padding: 70px 130px; 
-    grid-column: 3/5;
-    grid-row: ;
+    padding: 70px 40px 70px 200px;
+    margin-left: 575px;
+    margin-bottom: 40px;
+    margin-top: -300px;
+    grid-row: 3/-1;
+    
 }
 
 
@@ -93,11 +97,12 @@ button{
     align-items: center;
     border: 2px solid #547A72;
     border-radius: 15px;
-    padding: 15px 50px;
-    width: 200px;
+    padding: 15px 40px;
+    width: 180px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-weight: bolder;
     letter-spacing: 1.5px;
+    margin-top: 15px;
 }
 .download{
 
