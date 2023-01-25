@@ -68,14 +68,14 @@ body {background-color: #FEFEFF;
    
     }
 
-h1 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1 {font-family: 'Titan One', cursive;;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 60px;
     font-weight:bolder;
     text-align: left;
     color: #547A72;
     letter-spacing: 1px;
-    margin-bottom:-20px;}
+    margin-bottom:-15px;}
 
 .container{                                                                                                             
     display:grid;
@@ -168,6 +168,9 @@ button{
 {  .container{
     width: 450px;
 }
+    h1{ 
+        font-size: 45px;
+    }
     .back{border: 175px;
     height: 250px;
     width: 300px;
@@ -178,7 +181,7 @@ button{
 
     .text{
         margin-left:15px;
-        width: 345px;
+        width: 300px;
         padding: 250px 40px 40px 50px
           }
   .about {
