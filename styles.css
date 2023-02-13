@@ -3,7 +3,7 @@
 header {padding: 20px 175px; 
 display: flex;
 justify-content: space-between;
-align-items: center;}
+align-items: center; }
 
 .full-name {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 15px;
@@ -197,6 +197,44 @@ button{
     
 }
 
+/* My Work*/
+
+.second{ 
+    display: flex;
+    justify-content: center;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    Padding: 70px;
+  }
+  
+  .card {
+    width: 45%;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-caption {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-caption h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;}
+  
+
 /* Footer */
 .yellow-line{
     background-color: #F5F5F5;
@@ -206,7 +244,7 @@ button{
     
 }
 
-.Icon{
+.footer{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -215,7 +253,7 @@ button{
     position: absolute center;
 }
 
-.ig, .in, .mail {width: 30px; padding:10px;
+.ig, .in, .mail {width: 50px; padding:10px;
     
 }
 
